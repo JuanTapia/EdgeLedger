@@ -1,41 +1,39 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 *{
     box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
+
 body{
-    font-family: 'Open Sans',sans-serif; 
-    background: #fff; 
-    color: #333;
-    line-height: 1.6;
-      /*forgot b-color white, color black, line-height 1.6  */
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;/*1.6*/
+    background:#fff;
+    color:#333; 
 }
+p{
+    margin: 10px 0;
+}
+
 h1,h2{
-    line-height: 1.2;
     font-weight: 300;
-    /* line-height 1.2, font-weight: 300; by default is 700*/
+    line-height: 1.2;/*1.2*/
+}
+a{
+    color: #333;
+    text-decoration: none;
 }
 ul{
     list-style: none;
-}
-a{
-    text-decoration: none;
-    color: #333;
-}
-/* forgot p margin 10 0, img width 100% */
-p{
-    margin: 10px 0;
 }
 img{
     width: 100%;
 }
 
 
-
 /* Navbar */
+
 .navbar{
     width: 100%;
     height: 70px;
@@ -44,30 +42,22 @@ img{
     justify-content: space-between;
     background: #333;
     color: #fff;
+    padding: 0 30px;/* 0 30px*/
     opacity: 0.8;
-    padding: 0 30px;/* padding: 0 30px*/
     position: fixed;
     top: 0px;
 }
+.navbar ul{
+    display: flex;
+}
 .navbar a{
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 20px;/*10px 20px*/
     margin: 0 5px;
-    /* padding 10 20, marging 0 5 */
 }
-.navbar ul{
-    display: flex;   
-}
-/* .navbar ul li a{
-    padding: 20px;
-    margin-right: 5px;
-    this will affect only a tags inside ul but not navbar
-} */
-/*  */
 .navbar ul li a:hover{
-    border-bottom: #28a745 solid;
+    border-bottom: #28a745 solid 2px;
 }
-/* forgot the bold the logo 400 */
-.navbar .logo{
+.navbar h1{
     font-weight: 400;
 }
