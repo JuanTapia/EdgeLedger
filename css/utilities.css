@@ -4,3 +4,35 @@
 .text-secondary{
     color: #0284d0;
 }
+
+/* button */
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 30px;
+    border: none;
+
+    background: #28a745;
+    color: #fff;
+    border-radius: 5px;/* even tho there's no border, it'll shape the corners*/
+}
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn-primary{
+    background: #28a745;
+    color: #fff;
+}
+.btn-secondary{
+    background: #0284d0;
+    color: #fff;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-light{
+    background: #fff;
+    color: #333;
+}
