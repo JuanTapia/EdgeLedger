@@ -112,3 +112,30 @@ img{
 .hero *{/* * means, anything that is in hero*/
     z-index: 10;
 }
+
+/* ********* Icons *********** */
+.icons{
+    padding: 30px;
+}
+.icons h3{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.icons i{
+    background:#28a745 ;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.flex-items{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 100%;
+}
+.flex-items > div{
+    padding: 20px;
+    width: 33.33%;
+}
