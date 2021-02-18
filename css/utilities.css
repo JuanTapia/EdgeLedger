@@ -36,3 +36,16 @@
     background: #fff;
     color: #333;
 }
+
+/* flex items */
+.flex-items{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 100%;
+}
+.flex-items > div{
+    padding: 20px;
+    /* width: 33.33%; */
+}
